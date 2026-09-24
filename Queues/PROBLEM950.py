@@ -14,6 +14,7 @@ class Solution:
             #GET THE POSITION WHERE THIS CARD SHOULD BE PLACED 
             index=positions.popleft()
             #PLACE THE CARD AT THAT POSITION 
+            answer[index]=card
             #IF THERE ARE STILL POSITIONS LEFT, MOVE THE NEXT POSITION TO THE BACK 
             #THIS SIMULATES: "MOVE THE NEXT CARD TO THE BOTTOM"
             if positions:
